@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style_test_exercise2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Общая Информация</legend>
+            <article>
+                <section><label for="surname">Фамилия</label>
+                <input type="text" name="surname" placeholder="Иванов"></section>
+                
+
+                <section><label for="name">Имя</label>
+                <input type="text" name="name" placeholder="Иван"></section>
+
+                <section><label for="patronymic">Отчество</label>
+                <input type="text" name="patronymic" placeholder="Иванович"></section>
+
+                <section><label for="email">email</label>
+                <input type="text" name="email" placeholder="mail@mail.ru">
+            </article></section>
+        </fieldset>
+ 
+
+        <fieldset>
+            <legend>Пол</legend>
+            <section>
+                <input type="radio" id="sex" name="sex" value="man">
+                <label for="SexCoicel">М</label>
+            </section>
+            <section>
+                <input type="radio" id="sex" name="sex" value="woman">
+                <label for="SexCoicel">Ж</label>
+            </section>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Хобби</legend>
+            <section>
+                <input type="checkbox" id="Choice1" name="Hobby" value="painting">
+                <label for="Choice1">Рисование</label>
+            </section>
+            <section>
+                <input type="checkbox" id="Choice2" name="Hobby" value="reading">
+                <label for="Choice2">Чтение</label>
+            </section>
+            <section>
+                <input type="checkbox" id="Choice3" name="Hobby" value="knitting">
+                <label for="Choice3">Вязание</label>
+            </section>
+            <section>
+                <input type="checkbox" id="Choice4" name="Hobby" value="cooking">
+                <label for="Choice4">Кулинария</label>
+            </section>
+        </fieldset>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
+
+div{
+    margin-bottom: 20px;
+    display: block;
+}
+
+label{
+    width: 80px;
+    display: inline-block;
+}
+
