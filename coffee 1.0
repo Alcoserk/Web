@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css_ex7.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Кофе 1.0</h1>
+        <div class="block">
+            <img src="https://source.unsplash.com/9MPtiRcaP_E/640x480" alt="coffee">
+            <div class="block-text">
+                <p class="title">Арабика</p>
+                <p class="text">составляет львиную долю всего производимого в мире кофе — 70 %, несмотря на то, что этот вид сложен в выращивании, и, следовательно, дороже, чем другие виды. Он завоевал такую популярность благодаря нежному и тонкому вкусу. Вид арабика имеет немало разновидностей, названия которых хорошо знакомы ценителям. Наиболее известные разновидности арабики: бурбон, мокко, типика, абиссиника, марагоджал.</p>
+            </div>
+        </div>
+        <div class="block">
+            <img src="https://source.unsplash.com/JBQ1K0LiICA/640x480" alt="coffee">
+            <div class="block-text">
+                <p class="title">Робуста</p>
+                <p class="text">более крепкий и менее элегантный. Несмотря на простоту выращивания и более высокую урожайность, этот кофе относится к более низкому классу, чем арабика. Робуста, как правило, добавляют в кофейные смеси для придания им крепости. Разновидности робусты: конильон (Бразилия), куилу (Конго), ява-инеак (Индонезия), конженсис.</p>
+            </div>
+        </div>
+    </div>
+    <div class="join">
+        <p class="join-title">Присоединяйся к нашей команде</p>
+        <p class="join-text">пиши на почту: <a class="email" href="coffee-team@mail.com">coffee-team@mail.com</a></p>
+    </div>
+    
+</body>
+</html>
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto;
+    background: #fffded;
+}
+.container{
+    margin: 0 10%;
+}
+.main-title{
+    padding: 55px 0;
+    color: #753C20;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    line-height: 56.25px;
+}
+.block {
+    display: flex;
+    margin-bottom: 5%;
+}
+img{
+    width: 40%;
+    height: 30%;
+}
+.block-text {
+    margin: 0 5%;
+}
+.title {
+    margin-bottom: 5.5%;
+    color: #D89B82;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    line-height: 42.19px;
+}
+.text {
+    color: #000;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    line-height: 21.09px;
+}
+.join-title{
+    margin-bottom: 3.4%;
+    text-align: center;
+    color: #E78326;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.19px;
+    font-family: "Roboto", sans-serif;
+}
+.join-text{
+    margin-bottom: 5.5%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.13px;
+    font-family: "Roboto", sans-serif;
+}
+.email{
+    text-decoration: none;
+    color: #E78326;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.13px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+
